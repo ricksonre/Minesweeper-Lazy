@@ -144,8 +144,9 @@ public:
 
 		input();
 
-		if (t_render.getElapsedTime().asSeconds() > 0.016667)
+		if (t_render.getElapsedTime().asSeconds() > 0.005)
 		{
+
 			t_render.restart();
 			render();
 		}
